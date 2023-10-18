@@ -4,12 +4,8 @@ import { motion } from "framer-motion";
 const FAQData = [
   {
     question: "Prezados visitantes",
-    answer: "É com grande satisfação que informamos que o site 'Cidadão Sem Fronteiras' está atualmente em desenvolvimento. Estamos trabalhando diligentemente para criar uma plataforma que atenda às suas necessidades relacionadas à documentação de nacionalidade estrangeira para Portugal, Itália e Espanha. \n " +
-    "Nosso compromisso é fornecer informações detalhadas e serviços especializados para aqueles que buscam explorar as oportunidades e os processos de obtenção de nacionalidade em países estrangeiros. Com anos de experiência nessa área, nossa equipe está empenhada em facilitar o acesso a informações precisas e relevantes, bem como a assistência prática durante todo o processo \n" +
-    "Em breve, você poderá explorar nosso site, onde encontrará uma descrição abrangente de nossos serviços, informações úteis, e orientações sobre como dar início ao processo de obtenção de nacionalidade estrangeira." +
-    "Agradecemos sua paciência enquanto trabalhamos para criar uma plataforma que atenda às suas expectativas. Estamos ansiosos para compartilhar nosso conhecimento e assistência com você." +
-    "Atenciosamente," +
-    "A equipe do Cidadão Sem Fronteiras"
+    answer: "Estamos desenvolvendo o site 'Cidadão Sem Fronteiras' para fornecer informações e serviços relacionados à obtenção de nacionalidade estrangeira em Portugal, Itália e Espanha. Em breve, teremos detalhes sobre nossos serviços e orientações para você. Agradecemos sua paciência.",
+    footer: "Atenciosamente, A equipe do Cidadão Sem Fronteiras"
   }
 ];
 
@@ -36,6 +32,7 @@ export const FAQ = () => (
                 <FAQBox
                   title={item.question}
                   content={item.answer}
+                  footer={item.footer}
                   key={`${item.question}-${item.answer}`}
                   defaultOpen={index === 0}
                 />
@@ -48,7 +45,7 @@ export const FAQ = () => (
   </section>
 );
 
-const FAQBox = ({ defaultOpen, title, content }) => {
+const FAQBox = ({ defaultOpen, title, content, footer }) => {
   const [isOpen, setIsOpen] = useState(defaultOpen);
 
   return (
@@ -66,6 +63,13 @@ const FAQBox = ({ defaultOpen, title, content }) => {
           }`}
         >
           {content}
+        </p>
+        <p
+          className={`text-customGrayText pt-4 transition-all duration-300 overflow-hidden ${
+            isOpen ? "max-h-96" : "max-h-0"
+          }`}
+        >
+          {footer}
         </p>
       </div>
       <div className="absolute top-6 right-4 sm:top-8 sm:right-8">
