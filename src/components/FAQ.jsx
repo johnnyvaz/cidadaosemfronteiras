@@ -3,25 +3,14 @@ import { motion } from "framer-motion";
 
 const FAQData = [
   {
-    question: "Can I upgrade or downgrade my plan at any time?",
-    answer:
-      "Yes, you can easily upgrade or downgrade your plan at any time. Simply navigate to the account settings in your dashboard and choose the desired plan. The changes will be reflected immediately, and any adjustments in pricing will be applied on your next billing cycle. Our support team is more than happy to provide guidance and recommendations.",
-  },
-  {
-    question: "How to claim your 25% discount offer?",
-    answer:
-      "To claim your 25% discount, simply sign up for an account and enter the promotional code at checkout. The discount will be applied automatically to your purchase.",
-  },
-  {
-    question: "What's your refund policy?",
-    answer:
-      "We offer a 30-day money-back guarantee on all our plans. If you're not satisfied with our product, simply contact our support team within 30 days of purchase for a full refund.",
-  },
-  {
-    question: "How to get support for the product?",
-    answer:
-      "Our dedicated support team is here to help. You can reach out to us through the contact form on our website, send an email, or engage with us via live chat. We'll be happy to assist you with any questions or concerns you may have",
-  },
+    question: "Prezados visitantes",
+    answer: "É com grande satisfação que informamos que o site 'Cidadão Sem Fronteiras' está atualmente em desenvolvimento. Estamos trabalhando diligentemente para criar uma plataforma que atenda às suas necessidades relacionadas à documentação de nacionalidade estrangeira para Portugal, Itália e Espanha. \n " +
+    "Nosso compromisso é fornecer informações detalhadas e serviços especializados para aqueles que buscam explorar as oportunidades e os processos de obtenção de nacionalidade em países estrangeiros. Com anos de experiência nessa área, nossa equipe está empenhada em facilitar o acesso a informações precisas e relevantes, bem como a assistência prática durante todo o processo \n" +
+    "Em breve, você poderá explorar nosso site, onde encontrará uma descrição abrangente de nossos serviços, informações úteis, e orientações sobre como dar início ao processo de obtenção de nacionalidade estrangeira." +
+    "Agradecemos sua paciência enquanto trabalhamos para criar uma plataforma que atenda às suas expectativas. Estamos ansiosos para compartilhar nosso conhecimento e assistência com você." +
+    "Atenciosamente," +
+    "A equipe do Cidadão Sem Fronteiras"
+  }
 ];
 
 export const FAQ = () => (
@@ -36,10 +25,10 @@ export const FAQ = () => (
       <div className="relative z-10 container px-2 sm:px-8 lg:px-4 mx-auto w-11/12 sm:w-full">
         <div className="md:max-w-4xl mx-auto">
           <p className="mb-7 custom-block-subtitle text-center">
-            Have any questions?
+            Em desenvolvimento
           </p>
           <h2 className="mb-16 custom-block-big-title text-center">
-            Frequently Asked Questions
+            Cidadão sem Froteiras
           </h2>
           <div className="mb-11 flex flex-wrap -m-1">
             {FAQData.map((item, index) => (
