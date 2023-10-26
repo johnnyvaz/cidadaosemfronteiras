@@ -1,5 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import italia from "../assets/images/italia.png";
+import espanha from "../assets/images/espanha.png";
+import portugal from "../assets/images/portugal.png";
 
 import { InvitationModal } from "./InvitationModal";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
@@ -42,30 +45,13 @@ export const SelectPais = () => {
                     <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
                       ITÁLIA
                     </h4>
-
-                    <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
-                      bandeira
-                    </p>
-
-                  </a>
-
-                 
-                </div>
-              </div>
-              <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
-                <div className="p-8 bg-customDarkBg3 rounded-3xl">
-                  <a
-                    className="text-gray-400 hover:text-gray-300"
-                    href="/italia"
-                    aria-label=""
-                  >
-                  <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
-                    PORTUGAL
-                  </h4>
-
-                  <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
-                    bandeira
-                  </p>
+                    <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
+                      <img
+                        src={italia}
+                        alt="123"
+                        className=""
+                      />
+                    </div>
 
                   </a>
                 </div>
@@ -77,13 +63,39 @@ export const SelectPais = () => {
                     href="/italia"
                     aria-label=""
                   >
-                  <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
-                    ESPANHA
-                  </h4>
+                    <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
+                      PORTUGAL
+                    </h4>
 
-                  <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
-                    bandeira
-                  </p>
+                    <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
+                      <img
+                        src={portugal}
+                        alt="123"
+                        className=""
+                      />
+                    </div>
+
+                  </a>
+                </div>
+              </div>
+              <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
+                <div className="p-8 bg-customDarkBg3 rounded-3xl">
+                  <a
+                    className="text-gray-400 hover:text-gray-300"
+                    href="/italia"
+                    aria-label=""
+                  >
+                    <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
+                      ESPANHA
+                    </h4>
+
+                    <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
+                      <img
+                        src={espanha}
+                        alt="123"
+                        className=""
+                      />
+                    </div>
                   </a>
 
                 </div>
