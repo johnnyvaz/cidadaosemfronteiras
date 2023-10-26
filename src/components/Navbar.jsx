@@ -30,7 +30,7 @@ export const Navbar = () => {
                 <TailcastLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                Tailcast
+                Cidadão sem Fronteiras
               </div>
             </div>
           </a>
@@ -64,12 +64,12 @@ export const Navbar = () => {
             <a
               className="text-white custom-border-gray rounded-xl
            bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-              href="https://github.com/matt765/Tidestream"
+              href="https://api.whatsapp.com/send?phone=5541992672667&text=Preciso%20de%20mais%20informa%C3%A7%C3%B5es"
               target="_blank"
               aria-label="source code"
             >
               <GithubIcon />
-              <span className="pt-px">Source code</span>
+              <span className="pt-px">Contato</span>
             </a>
           </div>
         </motion.div>
