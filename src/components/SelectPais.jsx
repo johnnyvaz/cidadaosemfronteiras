@@ -33,41 +33,40 @@ export const SelectPais = () => {
                 Cada país temos um serviço personalizado.
               </p>
             </div>
-            <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center mt-20">
-              <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
+            <div className="flex gap-8 justify-center">
+              <a
+                className="text-gray-400 hover:text-gray-300"
+                href="/italia"
+                aria-label=""
+                >
                 <div className="p-8 bg-customDarkBg3 rounded-3xl">
-
-                  <a
-                    className="text-gray-400 hover:text-gray-300"
-                    href="/italia"
-                    aria-label=""
-                  >
-                    <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
-                      ITÁLIA
+                <div className=" rounded-3xl flex-1">
+                    <h4 className="mb-2 text-xl font-bold font-heading text-white text-center">
+                      ITALIANA
                     </h4>
-                    <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
+                    </div> 
+                    <div>
+                    <div className="border border-gray-100">
                       <img
                         src={italia}
-                        alt="123"
+                        alt="italiana"
                         className=""
                       />
                     </div>
-
-                  </a>
                 </div>
-              </div>
-              <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
-                <div className="p-8 bg-customDarkBg3 rounded-3xl">
+                </div>
+                </a>
+                <div className="p-8 bg-customDarkBg3 rounded-3xl flex-1">
                   <a
                     className="text-gray-400 hover:text-gray-300"
                     href="/italia"
                     aria-label=""
                   >
-                    <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
-                      PORTUGAL
+                    <h4 className="mb-2 text-xl font-bold font-heading text-white text-center">
+                      PORTUGUESA
                     </h4>
 
-                    <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
+                    <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose">
                       <img
                         src={portugal}
                         alt="123"
@@ -77,19 +76,17 @@ export const SelectPais = () => {
 
                   </a>
                 </div>
-              </div>
-              <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
-                <div className="p-8 bg-customDarkBg3 rounded-3xl">
+                <div className="p-8 bg-customDarkBg3 rounded-3xl flex-1">
                   <a
                     className="text-gray-400 hover:text-gray-300"
                     href="/italia"
                     aria-label=""
                   >
-                    <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
-                      ESPANHA
+                    <h4 className="mb-2 text-xl font-bold font-heading text-white text-center">
+                      ESPANHOLA
                     </h4>
 
-                    <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
+                    <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose ">
                       <img
                         src={espanha}
                         alt="123"
@@ -97,9 +94,7 @@ export const SelectPais = () => {
                       />
                     </div>
                   </a>
-
                 </div>
-              </div>
             </div>
           </div>
         </motion.div>
