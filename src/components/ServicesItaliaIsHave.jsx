@@ -36,7 +36,7 @@ const servicesData = [
   },
 ];
 
-export const ServicesIsHave = () => (
+export const ServicesItaliaIsHave = () => (
   <section className="w-full flex justify-center pt-10 mb-16 lg:mb-32 bg-customDarkBg2 relative">
     <div className="absolute -top-16" id="feedback" />
     <div className="flex flex-col w-full lg:w-[1150px] justify-center">
@@ -46,6 +46,9 @@ export const ServicesIsHave = () => (
         viewport={{ once: true }}
         transition={{ duration: 0.4, delay: 0.3 }}
       >
+        <br />
+        <br />
+        <br />
         <div className="custom-block-subtitle text-center mb-6">
           Serviços 
         </div>

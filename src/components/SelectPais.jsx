@@ -27,10 +27,10 @@ export const SelectPais = () => {
               <span className="custom-block-subtitle">
               </span>
               <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-white">
-                Selecione o País que deseja a Cidadania
+                Selecione sua origem
               </h2>
               <p className="mb-6 text-customGrayText">
-                Cada país temos um serviço personalizado.
+                Para cada país, um serviço personalizado.
               </p>
             </div>
             <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center mt-20">
@@ -38,18 +38,18 @@ export const SelectPais = () => {
                 <div className="p-8 bg-customDarkBg3 rounded-3xl">
 
                   <a
-                    className="text-gray-400 hover:text-gray-300"
+                    className=""
                     href="/italia"
                     aria-label=""
                   >
-                    <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
+                    <h4 className="mb-2 text-xl font-bold font-heading text-white text-center">
                       ITÁLIA
                     </h4>
-                    <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
+                    <div className="mt-2 mb-6 2xl:mb-10 flex-center">
                       <img
                         src={italia}
                         alt="123"
-                        className=""
+                        className="bg-customDarkBg3 rounded-2xl"
                       />
                     </div>
 
@@ -70,8 +70,8 @@ export const SelectPais = () => {
                     <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
                       <img
                         src={portugal}
-                        alt="123"
-                        className=""
+                        alt="portugal"
+                        className="bg-customDarkBg3 rounded-2xl"
                       />
                     </div>
 
@@ -92,8 +92,8 @@ export const SelectPais = () => {
                     <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
                       <img
                         src={espanha}
-                        alt="123"
-                        className=""
+                        alt="Espanha"
+                        className="bg-customDarkBg3 rounded-2xl"
                       />
                     </div>
                   </a>
