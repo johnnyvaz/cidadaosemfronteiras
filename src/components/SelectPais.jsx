@@ -38,14 +38,14 @@ export const SelectPais = () => {
                 className="text-gray-400 hover:text-gray-300"
                 href="/italia"
                 aria-label=""
-                >
+              >
                 <div className="p-8 bg-customDarkBg3 rounded-3xl">
-                <div className=" rounded-3xl flex-1">
+                  <div className=" rounded-3xl flex-1">
                     <h4 className="mb-2 text-xl font-bold font-heading text-white text-center">
                       ITALIANA
                     </h4>
-                    </div> 
-                    <div>
+                  </div>
+                  <div>
                     <div className="border border-gray-100">
                       <img
                         src={italia}
@@ -53,48 +53,48 @@ export const SelectPais = () => {
                         className=""
                       />
                     </div>
+                  </div>
                 </div>
-                </div>
+              </a>
+              <div className="p-8 bg-customDarkBg3 rounded-3xl flex-1">
+                <a
+                  className="text-gray-400 hover:text-gray-300"
+                  href="/italia"
+                  aria-label=""
+                >
+                  <h4 className="mb-2 text-xl font-bold font-heading text-white text-center">
+                    PORTUGUESA
+                  </h4>
+
+                  <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose">
+                    <img
+                      src={portugal}
+                      alt="123"
+                      className=""
+                    />
+                  </div>
+
                 </a>
-                <div className="p-8 bg-customDarkBg3 rounded-3xl flex-1">
-                  <a
-                    className="text-gray-400 hover:text-gray-300"
-                    href="/italia"
-                    aria-label=""
-                  >
-                    <h4 className="mb-2 text-xl font-bold font-heading text-white text-center">
-                      PORTUGUESA
-                    </h4>
+              </div>
+              <div className="p-8 bg-customDarkBg3 rounded-3xl flex-1">
+                <a
+                  className="text-gray-400 hover:text-gray-300"
+                  href="/italia"
+                  aria-label=""
+                >
+                  <h4 className="mb-2 text-xl font-bold font-heading text-white text-center">
+                    ESPANHOLA
+                  </h4>
 
-                    <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose">
-                      <img
-                        src={portugal}
-                        alt="123"
-                        className=""
-                      />
-                    </div>
-
-                  </a>
-                </div>
-                <div className="p-8 bg-customDarkBg3 rounded-3xl flex-1">
-                  <a
-                    className="text-gray-400 hover:text-gray-300"
-                    href="/italia"
-                    aria-label=""
-                  >
-                    <h4 className="mb-2 text-xl font-bold font-heading text-white text-center">
-                      ESPANHOLA
-                    </h4>
-
-                    <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose ">
-                      <img
-                        src={espanha}
-                        alt="123"
-                        className=""
-                      />
-                    </div>
-                  </a>
-                </div>
+                  <div className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose ">
+                    <img
+                      src={espanha}
+                      alt="123"
+                      className=""
+                    />
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </motion.div>
